@@ -48,8 +48,12 @@ In the windows search box type 'powershell'
 
 
 ### Definitions
-1. Repository
-2. 
+1. Git - Git is an open source program for tracking changes in text files
+2. Repository - The repository tracks all changes made to files in your project, building a history over time.
+3. Project -  Project is the folder in which the actual content(files) lives
+4. Remote - A common repository that all team members use to exchange their changes
+5. Local -  For where you keep your copy of a Git repository on your computer
+
 
 
 ### Key Git Commands to Know for Today
@@ -105,14 +109,14 @@ Next we will try editing a Python file separately and merging the changes.  Git 
 3. Each team will complete a small function to print the team member list in a specific order.  Let's assign what a function to each team.
 4. Work on your function with your team
 5. When complete save and close the file.
-6. Run the python code by 'python HelloTeam.py'.  After testing your function and confirming it works, what are the steps you need to take to update your repository with the changes?  What steps do you need to take to update the master remote repository with your changes?  Do a 'git status' to see the status according to git of your files. Try committing your changes now.
+6. Run the python code by typing 'python HelloTeam.py'.  After testing your function and confirming it works, what are the steps you need to take to update your repository with the changes?  What steps do you need to take to update the master remote repository with your changes?  Do a 'git status' to see the status according to git of your files. Try committing your changes now.
 7. Wait for everyone to finish
 8. Merging changes.  Now let's try merging your team's changes so that you can have the most up to date code.
 9. You can first do a 'git diff' or 'git diff HelloTeam.py'  What did you see?
 10. Try doing a 'git pull'.  What happened?
 11. Now run your 'HelloTeam.py'  What do you see? 
 
-Congratulations, if everything when as planned, you just merged changes from multiple software developers.  On top of that all of the version are kept and tracked in git.  So if you ever needed to go back or undo a change, you can do that.
+Congratulations, if everything went as planned, you just merged changes from multiple software developers.  On top of that all of the version are kept and tracked in git.  So if you ever needed to go back or undo a change, you can do that.
 
 To look at the changes, try 'git log'.  This will list all the commits from all of the developers.
 
@@ -146,6 +150,7 @@ Questions
 3. What code stays the same? What code changes?
 4. Where do you keep your documents?  Presentation material?  
 5. Are there any competition specific files or documents?
+6. What were any challenges you faced as a team when developing code for the competition?  How do we think git can help?
 
 
 
