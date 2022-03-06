@@ -25,15 +25,13 @@ def printLongestToShortest(_members):
 
 #Function 2
 def printShortesToLongest(_members):
-    print(_members)      
-
-
+    _members.sort()
+    print(_members) 
 
 #Function 3
 def printAscendingAlphabetical(_members):
-    _members.sort()
-    print(_members)      
-
+    _members.sort(key=lambda x: x[-1])
+    print(_members) 
 
 #Function 4
 def printDescendingAlphabetical(_members):
