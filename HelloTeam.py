@@ -2,6 +2,7 @@
 
 #Complete the following functions below
 
+
 def buildTeam(filename):
     """
     Builds an array of team members from file
@@ -30,6 +31,7 @@ def printShortesToLongest(_members):
 
 #Function 3
 def printAscendingAlphabetical(_members):
+    _members.sort()
     print(_members)      
 
 
